@@ -12,6 +12,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8F4B14742646CF5500C0DAB8 /* NativeMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4B14732646CF5500C0DAB8 /* NativeMapManager.m */; };
 		B1C8DDB5DBF4D8BAC88A9C0B /* libPods-rnnativeui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 621394A583BEBB39A783A515 /* libPods-rnnativeui.a */; };
 		CED649A586EFEF979D47118A /* libPods-rnnativeui-rnnativeuiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3035A245936E1F452B05B2E6 /* libPods-rnnativeui-rnnativeuiTests.a */; };
 /* End PBXBuildFile section */
@@ -41,6 +42,8 @@
 		520DAA4AC25B7576898844E2 /* Pods-rnnativeui-rnnativeuiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnnativeui-rnnativeuiTests.release.xcconfig"; path = "Target Support Files/Pods-rnnativeui-rnnativeuiTests/Pods-rnnativeui-rnnativeuiTests.release.xcconfig"; sourceTree = "<group>"; };
 		621394A583BEBB39A783A515 /* libPods-rnnativeui.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnnativeui.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = rnnativeui/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F4B14722646CF5500C0DAB8 /* NativeMapManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeMapManager.h; sourceTree = "<group>"; };
+		8F4B14732646CF5500C0DAB8 /* NativeMapManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeMapManager.m; sourceTree = "<group>"; };
 		B7A922292827EA69C86D66C8 /* Pods-rnnativeui-rnnativeuiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnnativeui-rnnativeuiTests.debug.xcconfig"; path = "Target Support Files/Pods-rnnativeui-rnnativeuiTests/Pods-rnnativeui-rnnativeuiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CCF4277D22D586B245F3C84C /* Pods-rnnativeui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnnativeui.release.xcconfig"; path = "Target Support Files/Pods-rnnativeui/Pods-rnnativeui.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -92,6 +95,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				8F4B14722646CF5500C0DAB8 /* NativeMapManager.h */,
+				8F4B14732646CF5500C0DAB8 /* NativeMapManager.m */,
 			);
 			name = rnnativeui;
 			sourceTree = "<group>";
@@ -145,7 +150,6 @@
 				B7A922292827EA69C86D66C8 /* Pods-rnnativeui-rnnativeuiTests.debug.xcconfig */,
 				520DAA4AC25B7576898844E2 /* Pods-rnnativeui-rnnativeuiTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -375,6 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F4B14742646CF5500C0DAB8 /* NativeMapManager.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
@@ -449,6 +454,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F5UN3Z7X2P;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = rnnativeui/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,6 +481,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F5UN3Z7X2P;
 				INFOPLIST_FILE = rnnativeui/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
